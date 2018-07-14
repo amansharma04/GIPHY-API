@@ -1,0 +1,28 @@
+body {
+    background-color: cadetblue;
+    margin: 50px
+}
+.jumbotron {
+height: auto;
+}
+.btn{
+    background-color: lightgreen;
+    margin: 10px;
+}
+#addSearch{
+    background-color: lightblue;
+    padding: 8px 40px 8px 30px;
+}
+#user-input {
+    padding: 5px 30px 5px 30px;
+  }
+  label {
+    font-size: 22px;
+    margin-left: 60px;
+    margin-top: 20px;
+    color: white;
+  }
+  
+  .container {
+    margin-top: 10px;
+  }
