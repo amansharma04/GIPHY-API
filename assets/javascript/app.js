@@ -5,6 +5,10 @@ $(document).ready(function() {
       "Chicago Bulls",
       "Lebron James",
       "Michael Jordan",
+      "Miami Heat",
+      "Bucks",
+      "Pelicans",
+      "Shaq",
     ];
   
     appendButton();
@@ -45,7 +49,7 @@ $(document).ready(function() {
       var queryURL =
         "https://api.giphy.com/v1/gifs/search?q=" +
         topic +
-        "&api_key=8bvrXfOVZnPW3TMYuEFO8jRewu4AXh3U&limit=10&rating=g";
+        "&api_key=CoZ18xPwoWKBUR4oILjR9QNrBQ7hOzdl";
   
       $.ajax({
         url: queryURL,
